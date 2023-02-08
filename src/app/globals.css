@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.headerStyles{
+  @apply md:h-[45vh] h-[30vh] bg-dark text-white p-5 text-center flex items-center justify-center;
+}
+
+.header-title{
+  font-size: clamp(1rem, 2vw, 2.25rem);
+}
+
+.header-title::after{
+  content: "";
+  @apply absolute bg-red w-full;
+  height: 5px;
+  bottom: -10px;
+  left: -5%;
+
+}
+
+#navitems{
+  transition: all 250ms cubic-bezier(1,0,0,1);
+}
+
+.navHover{
+  position: relative;
+}
+
+.navHover::after{
+  content: '';
+  height: 3px;
+  @apply w-0 absolute md:bottom-1 bottom-0 left-0 bg-white;
+  transition: all 200ms ease;
+}
+
+.navHover:hover::after{  
+  width: 100%;
+}
+
+.btn{
+  @apply border-2 border-solid border-red bg-red hover:bg-transparent text-white hover:text-red rounded-xl; 
+}
+
+.burger{
+  transition: transform 400ms ease, opacity 200ms ease;
+}
