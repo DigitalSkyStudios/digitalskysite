@@ -6,6 +6,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  letter-spacing: 1px;
 }
 
 html,
@@ -27,6 +28,39 @@ a {
 
 .headerStyles{
   @apply md:h-[45vh] h-[30vh] bg-dark text-white p-5 text-center flex items-center justify-center;
+}
+.headerStyles::after{
+  content: ''; 
+  background: url("/assets/DigitalSky/small_red 1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 30px;
+  width: 20vw;
+  height: 100%;
+  bottom: -45%;
+}
+
+.image{
+  position: relative;
+  z-index: 20;
+}
+img{
+  border-radius: 20px;
+}
+.image::after{
+  content: ''; 
+  position: absolute;
+  background: url("/assets/DigitalSky/small_blue 1.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  right: -50px;
+  width: 30vw;
+  height: 100%;
+  bottom: -50%;
+  z-index: -5; 
 }
 
 .header-title{
@@ -63,6 +97,9 @@ a {
 
 .btn{
   @apply border-2 border-solid border-red bg-red hover:bg-transparent text-white hover:text-red rounded-xl; 
+}
+.btn\:inverted{
+ @apply border-2 border-solid border-red bg-transparent hover:bg-red text-red hover:text-white rounded-xl; 
 }
 
 .burger{

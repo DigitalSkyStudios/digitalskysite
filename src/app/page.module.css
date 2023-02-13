@@ -1,9 +1,22 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  padding: 6rem;
+  padding: 6rem 20px;
   min-height: 100vh;
 }
 
+.separator{
+  position: relative;
+}
+.separator::after{
+  content: "";
+  height: 3px;
+  width: 30%;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+}
