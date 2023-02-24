@@ -1,7 +1,22 @@
-"use client"
+// "use client"
 
+import Footer from './Footer'
 import './globals.css'
-import Navigation from './Navigation'
+import Navigation from './Navigation';
+import classNames from 'classnames';
+
+import { Press_Start_2P, Montserrat } from '@next/font/google';
+
+const pixelFont = Press_Start_2P({
+  weight: "400",
+  subsets: ['latin'],
+})
+
+export const montserrat = Montserrat({
+  subsets: ['latin'],
+});
+
+
 
 export default function RootLayout({
   children,
@@ -16,9 +31,10 @@ export default function RootLayout({
       */}
       <head />
    
-      <body className='relative'>
+      <body className={classNames(montserrat.className, 'relative')}>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   )
