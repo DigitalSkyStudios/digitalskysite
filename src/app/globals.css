@@ -147,6 +147,10 @@ img{
  @apply border-2 border-solid border-red bg-transparent hover:bg-red text-red hover:text-white rounded-xl; 
 }
 
+.tag{
+  @apply border-2 border-solid bg-red border-red text-white rounded-xl py-1 px-3 mt-3 text-sm;
+}
+
 .burger{
   transition: transform 400ms ease, opacity 200ms ease;
 }
