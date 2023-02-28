@@ -82,14 +82,14 @@ export default function Home() {
                 We make videos to show you the process we take to make games! Visit our channel 
                 <a
                   className='ml-1 underline text-blue-500'  
-                  href="https://www.youtube.com/"
+                  href="https://www.youtube.com/@Digital_Sky_/featured"
                   target="_blank" rel="noreferrer noopener"
                   >here</a>.  
               </p>
             </div>
             <div className="video mt-3">
               <div className="overlay" />
-              <Image src="/assets/PrisonBreak.png" width={750} height={500} alt="Video"/>
+              <Image src="/assets/survivalGame.png" width={750} height={500} alt="Video"/>
             </div>
           </div>
         </section>
@@ -101,14 +101,14 @@ export default function Home() {
             <div className="blogs">
               {/* Blog */}
               <div className="border-solid border-2 border-black p-5 m-5 text-left rounded bg-white">
-                <p className="mb-2 underline max-w-[40ch]">How to touch grass, a beginners guide</p>
+                <p className="mb-2 underline max-w-[40ch]">System Slash - Dev Log 2</p>
                 <div className="flex justify-between mt-2">
                   <span className="text-gray-700">07/01/23</span>
                   <a className="text-red cursor-pointer hover:underline">Read</a>
                 </div>
               </div>
              <div className="border-solid border-2 border-black p-5 m-5 text-left rounded bg-white">
-                <p className="mb-2 underline max-w-[40ch]">How we animated characters in the Prison Break</p>
+                <p className="mb-2 underline max-w-[40ch]">System Slash - Dev Log 1</p>
                 <div className="flex justify-between mt-2">
                   <span className="text-gray-700">02/02/22</span>
                   <a className="text-red cursor-pointer hover:underline">Read</a>
@@ -121,7 +121,7 @@ export default function Home() {
                 <a href="https://twitter.com/Digital_Sky_" target="_blank" rel="noreferrer">
                   <img src="/assets/twitter.svg" alt="" />
                 </a>
-                <a href="">
+                <a href="https://www.youtube.com/@Digital_Sky_/featured" target="_blank" rel="noreferrer">
                   <img src="/assets/youtube.svg" alt="" />
                 </a>
                 <a href="https://github.com/DigitalSkyStudios/digitalskysite" target="_blank" rel="noreferrer">

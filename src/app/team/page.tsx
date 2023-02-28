@@ -11,36 +11,20 @@ interface TeamMember{
 
 const team:TeamMember[] = [
   {
-    image: '/assets/user.png',
+    image: '/assets/Alex.jpeg',
     name: 'Alex',
     role: 'Director/ Head Programmer',
-    email: 'alex@outlook.com',
+    email: 'AlexxDickinson@outlook.com',
     github: 'https://github.com/DickinsonAlex/',
     linkedin: 'https://www.linkedin.com/in/alex-dickinson-/',
   },
 {
-    image: '/assets/user.png',
-    name: 'Deekay',
-    role: 'Programmer',
-    email: 'alex@outlook.com',
-    github: '',
-    linkedin: '',
-  },
-{
-    image: '/assets/user.png',
-    name: 'Eggie',
-    role: 'Art and Graphics',
-    email: 'alex@outlook.com',
-    github: '',
-    linkedin: '',   
-  },
-{
-    image: '/assets/user.png',
+    image: '/assets/Matt.jpeg',
     name: 'Matt',
-    role: 'Games Programmer',
-    email: 'alex@outlook.com',
-    github: '',
-    linkedin: '',   
+    role: 'Games Programmer/ Level Designer',
+    email: 'N/A',
+    github: 'https://github.com/Malphatt',
+    linkedin: 'https://www.linkedin.com/in/matthew-freeman-399794255/',   
   
   },
 ];
@@ -59,7 +43,7 @@ const page = () => {
                 <Image className="rounded-md" src={member.image} width={250} height={400} alt={member.name+" "+member.role} />
                 <p className="font-bold text-xl my-2">{member.name}</p>
                 <p className="text-sm font-bold mb-2">{member.role}</p>
-                <p className="text-xs italic">{member.name.toLocaleLowerCase() + '@outlook.com'}</p>
+                <p className="text-xs italic">{member.email}</p>
                 <div className="mt-4 gap-4 flex">
                   <div className="bg-white rounded-full p-2 hover:scale-125">
                     <a href={member.github} target="_blank" rel="noreferrer">
