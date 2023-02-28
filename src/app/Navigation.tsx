@@ -12,7 +12,7 @@ const Navigation = () => {
         'px-5 py-3': true,
       }, montserrat.className)}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/assets/logo.png" alt="logo" className="w-16"/>
+        <img src="/assets/logo.gif" alt="logo" className="w-16"/>
              
         <button
           className="md:hidden block absolute top-[35%] right-5 z-50 burger"
