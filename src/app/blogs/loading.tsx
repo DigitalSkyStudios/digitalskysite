@@ -1,5 +1,5 @@
 const Loading = () => (
-    <div className="max-w-3xl mx-auto">
+    <div className="max-w-3xl mx-auto my-4">
     {
         Array.from(Array(5).keys()).map(item => {
             return (

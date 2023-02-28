@@ -8,7 +8,7 @@ const BlogsList = async ({ promise }: any) => {
           {blogs.length === 0 && (
               <div className="italic">
                   <p className="font-bold">We are currently working on producing some amazing content for you to read...</p>
-                  <p>We Appreciate your Patience</p>
+                  <p className="my-4">We Appreciate your Patience</p>
               </div>
           )}
           {blogs.length > 0 && blogs.map((blog: ArticleType) => {
