@@ -34,7 +34,7 @@ export default function Home() {
             <h2 className='text-xl font-semibold my-4'>We are currently working on...</h2>
             <p className=''>Seconds to Slash</p>
             <p className='max-w-[40ch] font-light'>A 3D 3rd person survival game, eliminate enemies and don&apos;t
-              all your health, make sure you survive.</p>
+              lose all your health, make sure you survive.</p>
             <button className='btn:inverted py-2 px-5 mt-5'>Find out more</button>
           </div>
           <div className="image">
@@ -100,14 +100,15 @@ export default function Home() {
             {/* Blog Overview */}
             <div className="blogs">
               {/* Blog */}
-              <div className="border-solid border-2 border-black p-5 m-5 text-left rounded bg-white">
+              
+              <div className="w-full border-solid border-2 border-black py-5 px-10 text-left rounded bg-white mb-4">
                 <p className="mb-2 underline max-w-[40ch]">System Slash - Dev Log 2</p>
                 <div className="flex justify-between mt-2">
                   <span className="text-gray-700">07/01/23</span>
                   <a className="text-red cursor-pointer hover:underline">Read</a>
                 </div>
               </div>
-             <div className="border-solid border-2 border-black p-5 m-5 text-left rounded bg-white">
+             <div className="w-full border-solid border-2 border-black py-5 px-10 text-left rounded bg-white mb-4">
                 <p className="mb-2 underline max-w-[40ch]">System Slash - Dev Log 1</p>
                 <div className="flex justify-between mt-2">
                   <span className="text-gray-700">02/02/22</span>
