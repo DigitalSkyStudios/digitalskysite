@@ -1,0 +1,13 @@
+.gridContact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-tempate-rows: 1fr;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px){
+    .gridContact{
+        display: flex;
+        flex-direction: column;
+    }
+}
