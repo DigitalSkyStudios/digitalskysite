@@ -30,7 +30,7 @@ export default function Home() {
             with the best player experience.</p>
         </section>
         <section className="flex mt-14 p-10 justify-evenly items-center gap-5 md:gap-32 flex-wrap-reverse currentGame">
-          <div className="text-left align-middle">
+          <div className="text-center md:text-left align-middle">
             <h2 className='text-xl font-semibold my-4'>We are currently working on...</h2>
             <p className=''>Seconds to Slash</p>
             <p className='max-w-[40ch] font-light'>A 3D 3rd person survival game, eliminate enemies and don&apos;t

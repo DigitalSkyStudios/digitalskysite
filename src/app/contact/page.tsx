@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const page = () => {
   return (
   <div className="text-center">
-      <div className='mb-11 mt-10 p-7'>
+      <div className='mb-3 md:mb-11 mt-10 p-7'>
         <p className="max-w-[60ch] m-auto">Have an idea? A question? Just want to talk? Shoot us a message below.</p>
       </div>
       <section className={styles.gridContact}>
@@ -33,13 +33,13 @@ const page = () => {
          <OrbitControls />
       </Canvas>
       <aside>
-          <form action="https://formspree.io/f/mwkjvzko" method='POST' className="flex gap-3 flex-col px-10 py-3 min-w-[40vw] mx-auto md:mt-0 mt-10 h-full justify-center">
+          <form action="https://formspree.io/f/mwkjvzko" method='POST' className="flex gap-3 flex-col px-10 md:px-24 py-3 min-w-[40vw] mb-16 md:mb-0 mx-auto h-full justify-center">
             <label htmlFor="name" className="self-start">Name:</label>
-            <input type="text" id="name" name="name"  className='border-solid border-black border p-2 rounded' />
+            <input type="text" id="name" name="name"  className='border-solid border-black border p-2 rounded-xl' />
             <label htmlFor="email" className="self-start">Email:</label>
-            <input type="email" id="email" name="email"  className='border-solid border-black border p-2 rounded'/>
+            <input type="email" id="email" name="email"  className='border-solid border-black border p-2 rounded-xl'/>
             <label htmlFor="message" className="self-start">Message:</label>
-            <textarea name="message" id="message" cols={30} rows={10} className='border-solid border-black border p-2 rounded'></textarea>
+            <textarea name="message" id="message" cols={30} rows={10} className='border-solid border-black border p-2 rounded-xl'></textarea>
             <button type="submit" className="py-2 px-5 btn">Send</button>
         </form>
       </aside>

@@ -25,7 +25,7 @@ const page = async () => {
 
   return (
     <div className="text-center min-h-screen">
-      <div className={classNames('mb-11', styles.separator)}>
+      <div className={classNames('mb-11 md:px-9 px-5', styles.separator)}>
         <h1 className="text-2xl font-bold mt-11 mb-5">Read our Blog Posts</h1>
         <p className="max-w-[40ch] m-auto">Here is a collection of our blog posts collected from Dev.to </p>
       </div>
