@@ -40,26 +40,26 @@ const Navigation = () => {
           }
         )}>
             <li className="mx-10 py-2 my-4 md:my-0 navHover text-sm">
-              <Link href="/">
+              <Link href="/" onClick={(_) => setNavOpen(false)}>
               Home
               </Link>
             </li>
             <li className="mx-10 py-2 my-4 md:my-0 navHover text-sm">
-              <Link href="/blogs">
+              <Link href="/blogs" onClick={(_)=> setNavOpen(false)}>
               Blog
               </Link>
             </li>
             <li className="mx-10 py-2 my-4 md:my-0 navHover text-sm">
-              <Link href="/team">
+              <Link href="/team" onClick={(_) => setNavOpen(false)}>
               Team
               </Link>
             </li>
             <li className="mx-10 py-2 my-4 md:my-0 navHover text-sm">
-              <Link href="/games">
+              <Link href="/games" onClick={(_) => setNavOpen(false)}>
               Games
               </Link>
             </li>
-            <Link href="/contact">
+            <Link href="/contact" onClick={(_) => setNavOpen(false)}>
               <li className="mx-10 px-5 py-2 box-border my-4 md:my-0 btn text-sm">
                 Let&apos;s Talk
               </li>
