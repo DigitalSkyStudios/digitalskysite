@@ -9,7 +9,7 @@ const pixelFont = Press_Start_2P({
   subsets: ['latin'],
 })
 
-export const montserrat = Montserrat({
+const montserrat = Montserrat({
   subsets: ['latin'],
 });
 

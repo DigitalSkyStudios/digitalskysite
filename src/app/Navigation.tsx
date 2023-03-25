@@ -2,7 +2,20 @@
 import Link from "next/link";
 import { useState } from "react";
 import classnames from "classnames";
-import { montserrat } from '@/app/page';
+
+
+import { Press_Start_2P, Montserrat } from '@next/font/google';
+
+const pixelFont = Press_Start_2P({
+  weight: "400",
+  subsets: ['latin'],
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+});
+
+
 
 const Navigation = () => {
     const [navOpen, setNavOpen] = useState<any>(false);
