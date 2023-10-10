@@ -82,15 +82,14 @@ export default function Home() {
                 We make videos to show you the process we take to make games! Visit our channel 
                 <a
                   className='ml-1 underline text-blue-500'  
-                  //href="https://www.youtube.com/@Digital_Sky_/featured"
-                  href="https://www.youtube.com/watch?v=P3xGPgl379s"
+                  href="https://www.youtube.com/@Digital_Sky_/featured"
                   target="_Blank" rel="noreferrer noopener"
                   >here</a>.  
               </p>
             </div>
             <div className="video mt-3">
               <div className="overlay" />
-              <Image src="/assets/Dungeon_Delvers.png" width={750} height={500} alt="Video"/>
+              <Image src="/assets/Dungeon_Delvers.png" width={750} height={500} alt="https://www.youtube.com/watch?v=P3xGPgl379s"/>
             </div>
           </div>
         </section>
