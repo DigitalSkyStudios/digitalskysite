@@ -11,20 +11,29 @@ interface TeamMember{
 
 const team:TeamMember[] = [
   {
-    image: '/assets/Alex.jpeg',
+    image: '/assets/Alex.png',
     name: 'Alex',
-    role: 'Director/ Head Programmer',
+    role: 'Director/ Programmer',
     email: 'AlexxDickinson@outlook.com',
     github: 'https://github.com/DickinsonAlex/',
     linkedin: 'https://www.linkedin.com/in/alex-dickinson-/',
   },
-{
-    image: '/assets/Matt.jpeg',
+  {
+    image: '/assets/Matt.png',
     name: 'Matt',
-    role: 'Games Programmer/ Level Designer',
+    role: 'Programmer',
     email: 'N/A',
     github: 'https://github.com/Malphatt',
     linkedin: 'https://www.linkedin.com/in/matthew-freeman-399794255/',   
+  
+  },
+  {
+    image: '/assets/Richard.png',
+    name: 'Richard',
+    role: 'Web Programmer',
+    email: 'N/A',
+    github: 'https://github.com/MeRichard123',
+    linkedin: 'https://www.linkedin.com/in/richardcoric/',   
   
   },
 ];
