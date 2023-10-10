@@ -84,7 +84,7 @@ export default function Home() {
                   className='ml-1 underline text-blue-500'  
                   //href="https://www.youtube.com/@Digital_Sky_/featured"
                   href="https://www.youtube.com/watch?v=P3xGPgl379s"
-                  target="https://www.youtube.com/watch?v=P3xGPgl379s" rel="noreferrer noopener"
+                  target="_Blank" rel="noreferrer noopener"
                   >here</a>.  
               </p>
             </div>
