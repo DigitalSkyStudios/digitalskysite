@@ -84,13 +84,13 @@ export default function Home() {
                   className='ml-1 underline text-blue-500'  
                   //href="https://www.youtube.com/@Digital_Sky_/featured"
                   href="https://www.youtube.com/watch?v=P3xGPgl379s"
-                  target="_blank" rel="noreferrer noopener"
+                  target="https://www.youtube.com/watch?v=P3xGPgl379s" rel="noreferrer noopener"
                   >here</a>.  
               </p>
             </div>
             <div className="video mt-3">
               <div className="overlay" />
-              <Image src="/assets/survivalGame.png" width={750} height={500} alt="Video"/>
+              <Image src="/assets/Dungeon_Delvers.png" width={750} height={500} alt="Video"/>
             </div>
           </div>
         </section>
