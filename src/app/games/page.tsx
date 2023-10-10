@@ -17,25 +17,18 @@ interface GameType {
 // if you don't add an image it will be a red box.
 const games: List<GameType> = [
   {
-    title: 'Seconds to Slash',
-    image: '/assets/survivalGame.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sequi harum voluptate amet molestiae odio nulla odit facere quibusdam quas.',
+    title: 'Dungeon Delvers',
+    image: '/assets/Dungeon_Delvers.png',
+    description: 'WIP: Dungeon Delvers is a fun, dungeon crawler with procedurally generated 3D enviroments, and engaging combat.',
     blogLink: '',
     gameLink: '',
   },
   {
-    title: 'Grapple Gunner',
+    title: 'Game Jams!',
     image: '/assets/GrappleGunner.png',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sequi harum voluptate amet molestiae odio nulla odit facere quibusdam quas.',
+    description: 'You can find out more information about our jam submissions here!',
     blogLink: '',
-    gameLink: '',
-  },
- {
-    title: 'The Cat Game?',
-    image: '',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sequi harum voluptate amet molestiae odio nulla odit facere quibusdam quas.',
-    blogLink: '',
-    gameLink: '',
+    gameLink: 'https://digitalsky.itch.io/',
   },
 ];
 
@@ -44,7 +37,7 @@ const pages = () => {
     <div className="text-center min-h-screen">
       <div className={classNames('mb-11 p-5', styles.separator)}>
         <h1 className="text-2xl font-bold mt-11 mb-5">So many cool things for you to check out!</h1>
-        <p className="max-w-[50ch] m-auto">Digital Sky Studios has developed many games over time. You can read about them them all and play them here.</p>
+        <p className="max-w-[50ch] m-auto">Digital Sky Studios has developed many games over time, you can read about them them all or find them on Itch.io.</p>
       </div>
       <div className="mb-10 mt-16 pt-10 px-5">
         {

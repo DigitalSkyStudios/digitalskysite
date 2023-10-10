@@ -32,13 +32,13 @@ export default function Home() {
         <section className="flex mt-14 p-10 justify-evenly items-center gap-5 md:gap-32 flex-wrap-reverse currentGame">
           <div className="text-center md:text-left align-middle">
             <h2 className='text-xl font-semibold my-4'>We are currently working on...</h2>
-            <p className=''>Seconds to Slash</p>
-            <p className='max-w-[40ch] font-light'>A 3D 3rd person survival game, eliminate enemies and don&apos;t
-              lose all your health, make sure you survive.</p>
+            <p className=''>Dungeon Delvers</p>
+            <p className='max-w-[40ch] font-light'>A 3D Dungeon Crawler game, explore procedurally generated dungeons, eliminate enemies and don&apos;t
+              get lost!</p>
             <button className='btn:inverted py-2 px-5 mt-5'>Find out more</button>
           </div>
           <div className="image">
-            <Image src="/assets/survivalGame.png" width={450} height={250} alt="game"/>
+            <Image src="/assets/Dungeon_Delvers.png" width={450} height={250} alt="game"/>
           </div>
         </section>
         <section className="mt-10 text-center">
@@ -82,7 +82,8 @@ export default function Home() {
                 We make videos to show you the process we take to make games! Visit our channel 
                 <a
                   className='ml-1 underline text-blue-500'  
-                  href="https://www.youtube.com/@Digital_Sky_/featured"
+                  //href="https://www.youtube.com/@Digital_Sky_/featured"
+                  href="https://www.youtube.com/watch?v=P3xGPgl379s"
                   target="_blank" rel="noreferrer noopener"
                   >here</a>.  
               </p>
@@ -102,16 +103,16 @@ export default function Home() {
               {/* Blog */}
               
               <div className="w-full border-solid border-2 border-black py-5 px-10 text-left rounded bg-white mb-4">
-                <p className="mb-2 underline max-w-[40ch]">System Slash - Dev Log 2</p>
+                <p className="mb-2 underline max-w-[40ch]">TBA</p>
                 <div className="flex justify-between mt-2">
-                  <span className="text-gray-700">07/01/23</span>
+                  <span className="text-gray-700">00/00/00</span>
                   <a className="text-red cursor-pointer hover:underline">Read</a>
                 </div>
               </div>
              <div className="w-full border-solid border-2 border-black py-5 px-10 text-left rounded bg-white mb-4">
-                <p className="mb-2 underline max-w-[40ch]">System Slash - Dev Log 1</p>
+                <p className="mb-2 underline max-w-[40ch]">TBA</p>
                 <div className="flex justify-between mt-2">
-                  <span className="text-gray-700">02/02/22</span>
+                  <span className="text-gray-700">00/00/00</span>
                   <a className="text-red cursor-pointer hover:underline">Read</a>
                 </div>
               </div>
