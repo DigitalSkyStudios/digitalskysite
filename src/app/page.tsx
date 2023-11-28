@@ -56,15 +56,23 @@ export default function Home() {
               </p>
             </div>
             <div className="video mt-3">
-              <div className="overlay" />
-              <Image src="/assets/Dungeon_Delvers.png" width={750} height={500} alt="https://www.youtube.com/watch?v=P3xGPgl379s&t=4s"/>
+              <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/watch?v=P3xGPgl379s&t=4s" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowFullScreen
+                className="rounded-md"
+                />                           
             </div>
           </div>
         </section>
 
         <section className="mt-10 text-center">
           <div className="mb-5">
-            <h1 className='font-bold text-2xl mb-5'>Some of out other work.</h1>
+            <h1 className='font-bold text-2xl mb-5'>Some of our other work.</h1>
             <p className='leading-7'>
               See some of our favorites below.
             </p>
