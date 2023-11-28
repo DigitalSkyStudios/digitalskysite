@@ -174,34 +174,7 @@ img{
   background: rgba(0,0,0,.5);
 }
 
-.video::before{
-  content: "Coming Soon";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  z-index: 10;
-  transition: opacity 250ms ease;
-  font-size: 30px;
-  opacity: 0;
-}
-
 .video:hover::before{
-  opacity: 1;
-}
-
-.video::after{
-  content: url('/assets/youtube-icon.png');
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  z-index: 10;
-  transition: opacity 400ms ease;
-  /* background: white; */
-  object-fit: contain;
   opacity: 1;
 }
 
