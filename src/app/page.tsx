@@ -57,9 +57,9 @@ export default function Home() {
             </div>
             <div className="video mt-3">
               <iframe 
-                width="560" 
-                height="315" 
-                src="https://www.youtube.com/watch?v=P3xGPgl379s&t=4s" 
+                width="610" 
+                height="365" 
+                src="https://www.youtube.com/embed/P3xGPgl379s?si=um0mkLKT2grzPEvy9s" 
                 title="YouTube video player" 
                 frameBorder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
