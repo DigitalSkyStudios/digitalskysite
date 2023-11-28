@@ -57,7 +57,11 @@ export default function Home() {
             </div>
             <div className="video mt-3">
               <div className="overlay" />
-              <Image src="/assets/Dungeon_Delvers.png" width={750} height={500} alt="https://www.youtube.com/watch?v=P3xGPgl379s"/>
+              <iframe
+                src="https://www.youtube.com/embed/P3xGPgl379s"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen />
             </div>
           </div>
         </section>
